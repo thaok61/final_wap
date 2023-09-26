@@ -1,0 +1,17 @@
+.place-btn-layout {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.cartCell {
+    width: 25%;
+}
+
+.cartQuantityCell {
+    display: flex;
+    align-items: center;
+}
+
+.inputQuantity {
+    flex: 1;
+}
