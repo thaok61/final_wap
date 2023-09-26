@@ -11,4 +11,4 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-module.exports = app;
+app.listen(8080, () => console.log('listening to 8080 ...'));
