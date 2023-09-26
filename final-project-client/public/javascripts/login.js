@@ -39,7 +39,7 @@ async function login() {
             }
         } else {
             // Handle non-OK response (e.g., server error)
-            alert('Error: Server error');
+            alert('Wrong Password');
         }
     } catch (error) {
         // Handle network errors or other exceptions
